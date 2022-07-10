@@ -60,7 +60,9 @@
       <section class="section-main section">
         <div class="container">
           <h1 class="slogan">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button">Заказать услугу</button>
+          <button class="button" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <!-- Особенности -->
@@ -130,6 +132,9 @@
                 width="370"
                 height="294"
               />
+              <div class="info-label">
+                <h2 class="label-subtitle">Десктопные приложения</h2>
+              </div>
             </li>
             <li class="img-info">
               <img
@@ -138,6 +143,9 @@
                 width="370"
                 height="294"
               />
+              <div class="info-label">
+                <h2 class="label-subtitle">Мобильные приложения</h2>
+              </div>
             </li>
             <li class="img-info">
               <img
@@ -146,6 +154,9 @@
                 width="370"
                 height="294"
               />
+              <div class="info-label">
+                <h2 class="label-subtitle">Дизайнерские решения</h2>
+              </div>
             </li>
           </ul>
         </div>
@@ -471,5 +482,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="button-close" width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
