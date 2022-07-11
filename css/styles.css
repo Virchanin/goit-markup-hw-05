@@ -704,6 +704,7 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     width: 30px;
     height: 30px;
     background: #FFFFFF;
